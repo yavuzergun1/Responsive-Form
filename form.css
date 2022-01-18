@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+form{
+    width: 80%;
+    min-width: 200px;
+    padding: 40px;
+margin: auto;
+
+
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 12px;
+    border: 1px solid black;
+    font-size: inherit;
+    padding-left: 10px;
+
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sehir{
+  margin-bottom: 1px;
+  height: 30px;
+  width: 100%;
+  font-size: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  -webkit-appearance:button-bevel;
+
+}
+
+.sevrenk{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+div.sevrenk input{
+    transform: translate(-30%);
+}
+
+
+div.button{
+   display: flex;
+   flex-direction: row;
+    margin-top: 30px;
+    
+    justify-content:space-evenly;
+    
+    }
+    button{
+        display: inline-block;
+        font-size: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:hover {
+  outline: 0px;
+    border-color:rgb(13, 185, 185);
+}
+    
+div.button button+button{
+    margin-left: 100px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="#" method="post" class="form">
+
+  
+    <div class="kimlikBilgileri"> 
+        <div class="kimlik"> 
+<label for="ad"  >Ad Soyad Giriniz  </label>
+<input type="text" name="adi" id="ad" placeholder="Adınız Soyadınız" required >
+</div>
+
+<div class="kimlik"> 
+<label for="tel">Telefon Numarası</label>
+<input type="tel" name="telefon" id="tel" placeholder="Telefon numarası" >
+</div>
+
+<div class="kimlik"> 
+<label for="email" >Email</label>
+<input type="email" name="email" id="email" placeholder="Email" >
+</div>
+</div>
+
+<div class="mesaj">
+<label for="mesaj" >Mesaj</label> <br> 
+    <textarea name="mesaj" id="mesajim" cols="30" rows="10" placeholder="Mesajınızı Yazın" ></textarea> 
+</div>
+
+<div>
+Şehir Seçin </div>
+    <select class="sehir">
+    <option value="" >Ankara</option>
+    <option value="" >İstanbul</option>
+    <option value="" selected>İzmir</option>
+    <option value="" >Bursa</option>
+</select></label>
+
+
+<div class="sevrenk">
+
+    <div> 
+    <label for="kirmizi">Kırmızı </label>
+<input type="radio" name="renk" value="kırmızı" id="kirmizi">
+</div>
+
+<div> 
+<label for="yesil">Yeşil </label>
+<input type="radio" name="renk" value="yesil" id="yesil">
+</div>
+<div> 
+<label for="mavi">Mavi </label>
+<input type="radio" name="renk" value="mavi" id="mavi">
+</div>
+</div>
+
+<div class="button">
+<button type="submit">Gönder</button>
+<button type="reset">Temizle</button>
+</div>
+    </form>
+</body>
+</html>
